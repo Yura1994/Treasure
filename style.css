@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;   
+    color: rgb(255, 5, 67); 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.scene{
+z-index: -1;
+position: fixed;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+min-height: 100vh;
+}
+.layer{
+    position: absolute;
+    left: -20px;
+    top: 0;
+    
+    width: 110%;
+    height: 100%;
+}
+
+.layer-bg{
+    background: url(img/parallax_bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.layer-1{
+    background: url(img/parallax_layer1.png) center no-repeat;
+    background-size: cover;
+}
+.layer-2{
+    background: url(img/parallax_layer2.png) center no-repeat;
+    background-size: cover;
+}
+
+/* .container{
+text-align: center;
+    
+    height: 100vh;
+    background-color: #ffbe76;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+
+
+
